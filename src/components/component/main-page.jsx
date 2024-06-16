@@ -55,7 +55,7 @@ export default function Princi() {
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-30 bg-[#FFC823]">
           <div className="px-4 md:px-6 space-y-10 xl:space-y-16">
-            <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
+            <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-1 md:gap-16 lg:grid-cols-2">
               <div>
                 <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem] text-[#FF3131]">
                   Descubre los mejores destinos turisticos barranquilleros
@@ -77,7 +77,7 @@ export default function Princi() {
                   </Link>
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center bg-custom-green">
+              <div className=" hidden lg:flex flex-col items-center justify-center bg-custom-green">
                 <svg width="100px" height="100px" viewBox="0 0 400 400">
                   <rect width="600" height="600" fill="transparent" />
                   <path
@@ -237,7 +237,7 @@ export default function Princi() {
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-5 lg:gap-12">
-              <div className="grid gap-3">
+              <div className="grid gap-3 justify-center">
                 <Avatar className="border w-16 h-16">
                   <AvatarImage alt="@username" src="/placeholder-user.jpg" />
                   <AvatarFallback>JD</AvatarFallback>
@@ -249,7 +249,7 @@ export default function Princi() {
                   </div>
                 </div>
               </div>
-              <div className="grid gap-3">
+              <div className="grid gap-3 justify-center">
                 <Avatar className="border w-16 h-16">
                   <AvatarImage alt="@username" src="/placeholder-user.jpg" />
                   <AvatarFallback>MS</AvatarFallback>
@@ -261,7 +261,7 @@ export default function Princi() {
                   </div>
                 </div>
               </div>
-              <div className="grid gap-3">
+              <div className="grid gap-3 justify-center">
                 <Avatar className="border w-16 h-16">
                   <AvatarImage alt="@username" src="/placeholder-user.jpg" />
                   <AvatarFallback>LG</AvatarFallback>
@@ -273,7 +273,7 @@ export default function Princi() {
                   </div>
                 </div>
               </div>
-              <div className="grid gap-3">
+              <div className="grid gap-3 justify-center">
                 <Avatar className="border w-16 h-16">
                   <AvatarImage alt="@username" src="/placeholder-user.jpg" />
                   <AvatarFallback>CR</AvatarFallback>
@@ -285,7 +285,7 @@ export default function Princi() {
                   </div>
                 </div>
               </div>
-              <div className="grid gap-3">
+              <div className="grid gap-3 justify-center">
                 <Avatar className="border w-16 h-16">
                   <AvatarImage alt="@username" src="/placeholder-user.jpg" />
                   <AvatarFallback>JM</AvatarFallback>
